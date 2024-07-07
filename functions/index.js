@@ -1,7 +1,7 @@
 import { onRequest } from 'firebase-functions/v2/https'
 import { info, debug, warn, error } from 'firebase-functions/logger'
 
-const version = 1
+const version = 2
 
 export const testLogging = onRequest(
   {
