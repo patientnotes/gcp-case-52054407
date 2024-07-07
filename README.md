@@ -5,5 +5,5 @@ This is a reproduction of the issue reported in https://github.com/firebase/fire
 ## Deploying
 
 ```
-firebase deploy --only functions
+firebase deploy --only functions:testLogging
 ```
